@@ -3,7 +3,7 @@ const postController = require("./../controller/postController");
 const isAuth = require("../middleware/isAuth");
 
 
-const router = express.Router();
+const router = express.Router()
 
 router
     .route("/")
